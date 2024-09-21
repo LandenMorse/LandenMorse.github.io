@@ -1,0 +1,225 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: rgb(78, 78, 78);
+    padding: 15px 0;
+}
+
+.horizontal-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-nav li {
+    margin: 0 20px;
+}
+
+.horizontal-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.horizontal-nav li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/****************************************INTRO*************************** */
+#intro {
+    display: flex;
+    background-image:url("images/vaporfly3-bg.jpg");
+    background-color: black;
+    background-size:     cover;   
+    background-repeat:   no-repeat;
+    background-position: top;
+    opacity: 0.9;
+    height: 50em;
+    width: 100%;
+    
+}
+
+#inner-intro {
+    width: 100%; text-align: center;
+    color:rgb(255, 255, 255);
+    line-height: 0.5;
+}
+
+#inner-intro h1 {
+    font-size: 7vw;
+}
+#inner-intro h2 {
+    font-size: 3.5vw;
+}
+
+
+/****************************************MAIN*************************** */
+.type {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.type-title {
+    display:block;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.shoe {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+.shoe h2 {
+    margin-top: 10px;
+}
+.shoe p {
+    margin-top: 5px;
+}
+
+
+.recommended {
+    border-radius: 11px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+a {
+    color: lightcoral
+}
+
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* small screen*/
+  @media only screen and (max-width: 768px) {
+    /* Adjust header and nav styles */
+    header {
+        display: none;
+        visibility: hidden;
+    }
+    .horizontal-nav li {
+      margin: 10px 0;
+    }
+  
+    /* Adjust intro styles */
+    #intro {
+      height: 400px;
+    }
+    #inner-intro {
+      font-size: 24px;
+    }
+  
+    /* Adjust main content styles */
+    main {
+      padding: 10px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    .recommended {
+        margin-left:1px;
+    }
+
+    .type {
+        grid-template-columns: auto;
+    }
+
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust header and nav styles */
+    header {
+      padding: 15px 0;
+    }
+      .horizontal-nav {
+          display: none;
+          visibility: hidden;
+      }
+    .horizontal-nav li {
+      margin: 0 10px;
+    }
+  
+    /* Adjust intro styles */
+    #intro {
+      height: 600px;
+    }
+    #inner-intro {
+      font-size: 36px;
+    }
+  
+    /* Adjust main content styles */
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Adjust header and nav styles */
+    header {
+      padding: 20px 0;
+    }
+    .horizontal-nav {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .horizontal-nav li {
+      margin: 0 20px;
+    }
+  
+    /* Adjust intro styles */
+    #intro {
+      height: 800px;
+    }
+    #inner-intro {
+      font-size: 48px;
+    }
+  
+    /* Adjust main content styles */
+    main {
+      padding: 30px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+  }

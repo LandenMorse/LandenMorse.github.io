@@ -111,9 +111,14 @@ header {
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
-    margin-left: 10px;
+    width: fit-content;
+    text-align: center;
 }
 
+.recommended p {
+  margin-top: 0px;
+  margin-bottom: -4px;
+}
 
 a {
     color: lightcoral

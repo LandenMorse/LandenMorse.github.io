@@ -111,7 +111,7 @@ header {
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
-    width: fit-content;
+    width: min-content;
     text-align: center;
 }
 

@@ -33,10 +33,10 @@ addShoe("Hoka Rocket X2","images/highbudget/hokarocketx2.jpg","https://www.hoka.
 addShoe("Asics Metaspeed Paris", "images/highbudget/metaspeedparis.jpg", "https://www.asics.com/us/en-us/metaspeed-edge-paris/p/ANA_1013A124-750.html", "$250", "https://runrepeat.com/asics-metaspeed-sky-paris", "high-budget")
 
 //mid budget
-addRecommendedShoe("Adidas Takumi Sen 10", "images/mediumbudget/takumisen10", "https://www.adidas.com/us/adizero-takumi-sen-10-m/ID2793.html", "$180", "https://runrepeat.com/adidas-adizero-takumi-sen-10", "medium-budget")
-addShoe("Nike Streakfly", "images/mediumbudget/streakfly", "https://www.nike.com/t/streakfly-road-racing-shoes-8rTxtR/DJ6566-700", "$120-170", "https://runrepeat.com/nike-zoom-x-streakfly", "medium-budget")
-addShoe("Hoka Cielo Road", "images/mediumbudget/cieloroad", "https://www.hoka.com/en/us/all-gender-footwear/cielo-road/1143490.html", "$170", "https://www.runningshoesguru.com/reviews/road/hoka-cielo-road-review/", "medium-budget")
+addRecommendedShoe("Adidas Takumi Sen 10", "images/mediumbudget/takumisen10.jpeg", "https://www.adidas.com/us/adizero-takumi-sen-10-m/ID2793.html", "$180", "https://runrepeat.com/adidas-adizero-takumi-sen-10", "medium-budget")
+addShoe("Nike Streakfly", "images/mediumbudget/streakfly.jpeg", "https://www.nike.com/t/streakfly-road-racing-shoes-8rTxtR/DJ6566-700", "$120-170", "https://runrepeat.com/nike-zoom-x-streakfly", "medium-budget")
+addShoe("Hoka Cielo Road", "images/mediumbudget/hokacielo.jpg", "https://www.hoka.com/en/us/all-gender-footwear/cielo-road/1143490.html", "$170", "https://www.runningshoesguru.com/reviews/road/hoka-cielo-road-review/", "medium-budget")
 //low budget
-addRecommendedShoe("Nike Waffle 6", "images/lowbudget/nikewaffle", "https://www.nike.com/t/rival-waffle-6-road-and-cross-country-racing-shoes-txWgQr/DX7998-100", "$70", "#", "low-budget")
-addShoe("Asics Hyper Speed 4", "images/lowbudget/hyperspeed4", "https://www.asics.com/us/en-us/hyper-speed-4/p/ANA_1011B874-750.html", "$100", "#", "low-budget")
+addRecommendedShoe("Nike Waffle 6", "images/lowbudget/waffle6.png", "https://www.nike.com/t/rival-waffle-6-road-and-cross-country-racing-shoes-txWgQr/DX7998-100", "$70", "#", "low-budget")
+addShoe("Asics Hyper Speed 4", "images/lowbudget/hyperspeed4.jfif", "https://www.asics.com/us/en-us/hyper-speed-4/p/ANA_1011B874-750.html", "$100", "#", "low-budget")
 addShoe("Hoka Crescendo XC", "images/lowbudget/hokacrescendo", "https://www.hoka.com/en/us/all-gender-footwear/crescendo-xc-spikeless/1141430.html", "$80", "#", "low-budget")

@@ -39,4 +39,4 @@ addShoe("Hoka Cielo Road", "images/mediumbudget/hokacielo.jpg", "https://www.hok
 //low budget
 addRecommendedShoe("Nike Waffle 6", "images/lowbudget/waffle6.png", "https://www.nike.com/t/rival-waffle-6-road-and-cross-country-racing-shoes-txWgQr/DX7998-100", "$70", "#", "low-budget")
 addShoe("Asics Hyper Speed 4", "images/lowbudget/hyperspeed4.jfif", "https://www.asics.com/us/en-us/hyper-speed-4/p/ANA_1011B874-750.html", "$100", "#", "low-budget")
-addShoe("Hoka Crescendo XC", "images/lowbudget/hokacrescendo", "https://www.hoka.com/en/us/all-gender-footwear/crescendo-xc-spikeless/1141430.html", "$80", "#", "low-budget")
+addShoe("Hoka Crescendo XC", "images/lowbudget/hokacrescend.jfif", "https://www.hoka.com/en/us/all-gender-footwear/crescendo-xc-spikeless/1141430.html", "$80", "#", "low-budget")
